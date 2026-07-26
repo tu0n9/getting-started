@@ -16,7 +16,7 @@ on:
 jobs:
   build-and-deploy:
     name: Build & Push Docker Image
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       # 1. Checkout source code từ repository
       - name: Checkout repository
